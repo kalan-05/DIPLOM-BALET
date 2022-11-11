@@ -60,7 +60,7 @@ ul {
 	margin: 8px;
 	font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   align-items: center;
   color: aliceblue;
   /*column-gap: 35;*/
@@ -77,15 +77,16 @@ ul {
 /*mail phon*/
 .contact-menu {
   display: flex;
-  margin: 35px;
+  margin: 45px;
   margin-left: auto;
   column-gap: 42px;
 }
 .contact-menu .icon {
   display: flex;
+	display: block;
   width: 30px;
   height: 30px;
-  display: block;
+  
 }
 
 /* end mail phon */
