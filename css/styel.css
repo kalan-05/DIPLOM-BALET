@@ -13,15 +13,17 @@ boby {
 /*HAEDER*/
 .wrapper {
   /*width: 75%;*/
-  margin: auto 0 12.5%;
+  /*margin: auto 0 12.5%;*/
+	margin: 0 auto;
 }
 
 .hidden {
+	position: absolute;
   overflow: hidden;
   width: 0;
   height: 0;
-  margin: -1;
-  position: absolute;
+  margin: -1px;
+	opacity: 0;
 }
 .site-haeder {
   /*background-color: #050505;*/
@@ -86,7 +88,9 @@ ul {
 	display: block;
   width: 30px;
   height: 30px;
-  
-}
+  }
+	.akademia{
+		margin: 150px;
+	}
 
 /* end mail phon */
