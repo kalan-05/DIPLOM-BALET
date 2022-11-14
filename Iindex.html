@@ -11,20 +11,30 @@
 				<title>LOGINOVA</title>
 	</head>
 	<body>
+		<div class="modal" id="modal">
+			<div class=" wrapper modal_body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+					<button class="btn close-modal">X</button>
+			</div>
+	</div>
 		<header class="site-haeder">
 			<div class="wrapper">
 				<!-- НАВИГАЦИЯ1 -->
 				<nav class="main-nav">
 					<a href="#!" class="logo">
-						<img src="/img/Header/LOGO-Ekaterina 2.png" alt="Loginova-logo"></a>
+						<img src="/img/Header/LOGO-Ekaterina 2.png" alt="Loginova-logo">
+					</a>
 					<!-- НАВИГАЦИЯ2 -->
-							<input id="nav-toggle" class="hidden" type="checkbox" />
-              	<label class="toggle-btn" for="nav-toggle">
-              		<span></span>
-                </label>
+							<input id="nav-toggle" class="hidden" type="checkbox"/>
+              <label class="toggle-btn" for="nav-toggle">
+              <span></span>
+              </label>
+							<!--<div class="photo_dalet" >
+								<img src="/img/Header/Balet_1.png" alt="">
+							</div>-->
 						<!--МЕНЮ -->
-						<ul class="site-menu"></ul>
-							<li><a href="#!">О нас</a></li>
+						<ul class="site-menu">
+							<li><a href="#!">Команда</a></li>
 							<li><a href="#!">Группы</a></li>
 							<li><a href="#!">Отзывы</a></li>
 							<li><a href="#!">Контакты</a></li>
@@ -33,62 +43,68 @@
 						<ul class="contact-menu">
 							<li>
 								<a href="mailto:" class="icon icon-mail">
-									<img src="/img/Header/email.png" alt="icon-mail">
+									<!--<img src="/img/Header/email.png" alt="icon-mail">-->
 									<span class="hidden">Написать нам</span>
 								</a>
 							</li>
 							<li>
 								<a href="tel:" class="icon icon-phone">
-									<img src="/img/Header/phon.png" alt="icon-phone">
+									<!--<img src="/img/Header/phon.png" alt="icon-phone">-->
 									<span class="hidden">Позвонить нам</span>
 								</a>
 							</li>
 						</ul>
 				</nav>
+				<!--end nav-->
 				<section class="akademia">
-					<h1>
+					<h1 class="title">
 						Академия балета
 					</h1>
-					<h2>
+					<h2 class="title_2">
 						Екатерины Логиновой
-					</h2>
-					<p>
-						Всё лучшее<br>от Русского балета.
+					</h2 >
+					<p class="text">
+						Всё лучшее от<br> Русского балета.
 					</p>
-					<a href="#vacation-request" class="btn btn-record">Запись на первое задание</a>
+					<a href="#vacation-request" class="btn btn-record">ЗАПИСЬ НА ПЕРВОЕ ЗАНЯТИЕ
+					</a>
 				</section>
 			</div>
 		</header>
-		<!--О нас-->
+													<!--Команда-->
 		<main>
-			<section class="content Loginava">
-				<div class="wrapper column-container">
-						<div class="left_Loginova-column">
+			<section class="content_Loginava">
+				<div class="wrapper_column-container">
+						<div class="Loginova-column">
 								<img src="/img/Team/Loginova2.png" alt="LOGINOVA">
-								<h3>
+						</div>
+								<h3 class="title_LogE">
 									Екатерина Логинова
 								</h3>
-									<p class="Ekaterina rezim">
+									<p>
 									Прима Мариинского театра. Принимала участия во всех постановках Мариинского театра, в течении 20 лет. Руководитель и создатель академии. Педагог высшей категории - педологической стаж 15 лет. Воспитала несколько поколений успешных педагогов и хореографов, обладатель премии Лучшая балерина 2000 года, лучший хореограф Современного балета. Хореограф-постановщик в Детского театра. Педагог групп и индивидуальный тренер по High Heels, Современного балета, хореограф-постановщик команд школы.
 									</p>
-						</div>
 				</div>
 			</section>
-			<section class="content team">
+			<section class="content_team">
 				<div class="wrapper column-team">
-						<div class="right_Ivanova-column">
+						<div class="left_Ivanova-column">
 							<img src="/img/Team/Ivanova.png" alt="IVANOVA">
-							<h3>
+						</div>
+						<div>
+							<h3 class="title_IvanO">
 								Ольга Иванова
 							</h3>
-								<p class="Olga rezim">
+								<p class="Olga_rezim">
 									Окончила Академию Русского балета имени А.Я. Вагановой. Успешно работала в постановках Мюзик-Холла. 2010 году получила премию «Лучшая актриса Мюзки-Холла.
 									Ольга добрый и любящий детей педагог. В меру строгий, который точно приведёт ребёнка к результатам. Рабочая атмосфера на её занятиях часто разбавляется забавными шутками, из-за которых дети любят Катю ещё больше.
 								</p>
 						</div>
-						<div class="Petrov-column">
+						<div class="center_Petrov-column">
 							<img src="/img/Team/Petrov.png" alt="PETROV">
-							<h3>
+						</div>
+						<div>
+							<h3 class="title_PetK">
 								Константин Петвов
 							</h3>
 								<p class="Petrov rezim">
@@ -98,7 +114,9 @@
 						</div>
 						<div class="right_Cidrova-column">
 							<img src="/img/Team/Cidrova.png" alt="CIDROVA">
-							<h3>
+						</div>
+						<div>
+							<h3 class="title_CidN">
 								Наталья Сидрова
 							</h3>
 								<p class="Natalia rezim">
@@ -183,7 +201,7 @@
 		<footer>
 
 		</footer>
-		<script src="/js/"></script>
-
+		<script src="/js/modal.js"></script>
+		<script src="/js/send-proposal.js"></script>
 	</body>
 </html>

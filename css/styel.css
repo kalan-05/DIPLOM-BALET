@@ -27,26 +27,27 @@ boby {
 }
 .site-haeder {
   /*background-color: #050505;*/
-	/*background: url(../img/Header/balet2.jpg)*/
-  background: url(../img/Header/Header\ 1.png);
-	width: 1280px;
-  height: 699px;
-
-  color: #fffbfb;
+	background-image: url(../img/Header/Balet_1.png);
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: cover;
+	justify-content: flex-end;
+	display: list-item;
+	width: auto;
+	  /*height: 699px; !!!!!!*/ 
+  /*color: #fffbfb;*/
 }
-
 .site-haeder .wrapper {
-  padding: 0px;
+  padding-top: 10px;
+	padding-bottom: 100px;
 }
-
 .main-nav {
   display: flex;
-
+	margin-bottom: 5px;
   /*justify-content: space-between;*/
   /*align-items: center;*/
   /*color: aliceblue;*/
 }
-
 .logo {
   width: 188px;
   height: 51px;
@@ -55,42 +56,207 @@ boby {
   margin-right: 123px;
 }
 ul {
-  list-style: none;
+  list-style: none;/* точки*/
 }
 .site-menu {
   display: flex;
+	align-items: center;
 	margin: 8px;
-	font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  align-items: center;
-  color: aliceblue;
+	/*color: aliceblue;*/
   /*column-gap: 35;*/
 }
 .site-menu a {
+	display: flex;
   text-decoration: none;
   display: block;
   color: #fffbfb;
   margin-right: 45px;
+	font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
 }
-.site-menu li:last-child > a {
+/*.site-menu li:last-child > a {
   margin: 0%;
-}
+}*/
 /*mail phon*/
 .contact-menu {
   display: flex;
   margin: 45px;
-  margin-left: auto;
+	margin-left: auto;
   column-gap: 42px;
 }
 .contact-menu .icon {
-  display: flex;
+  /*display: flex;*/
 	display: block;
-  width: 30px;
+  width: 35px;
   height: 30px;
   }
-	.akademia{
-		margin: 150px;
+	.contact-menu .icon-mail {
+		display: flex;
+		margin-right: auto;
+		display: block;
+		background: url(../img/Header/email.png) no-repeat; 
 	}
+	.contact-menu .icon-phone {
+		display: flex;
+		margin-right: auto;
+		display: block;
+		background: url(../img/Header/phon.png) no-repeat;
+	}
+	.btn-record {
+			box-sizing: border-box;
+	/* Auto layout */
+		display: flex;
+		/*flex-direction: row;*/
+		text-decoration: none;
+		justify-content: center;
+		align-items: center;
+		/*padding: 15px 24px;*/
+		gap: 10px;
+		position: absolute;
+		width: 227px;
+		height: 50px;
+		/*left: 997px;*/
+		right: 45px;
+		top: 715px;
+		font-family: "Montserrat", sans-serif;
+		font-size: 12px;
+		font-weight: 600;
 
-/* end mail phon */
+		background: #D9D9D9;
+		border: 3px solid #FFFFFF;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 36px;
+	}
+					/* end mail phon */
+					/* end contact menu */
+	.akademia {
+		width: auto ;
+		padding-left: 65px;
+	}
+.title {
+	font-family: Roboto Slab;
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 94px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin: 0px 640px 370px 78px;
+	width: 562px;
+	color: #FFF;
+}
+.title_2 {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	left: 130px;
+	top: 427px;
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	color: #FFFBFB;
+}
+.text {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	width: 350px;
+	height: 93px;
+	left:265px;
+	top: 597px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 60px;
+	color: #FFFBFB;
+}
+									/*main*/
+	.content_Loginava {
+		display: flex;
+		background: #F5F5F5;
+		background-repeat: no-repeat;
+		background-position: 100%;
+		background-size: cover;
+		padding: 30px;
+		/*align-items: center*/
+		/*margin: 30px;*/
+		width: auto ;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 50px;
+		color: #0c0c0c;
+	}
+	.Loginova-column {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: auto
+		}
+		.title_LogE {
+		text-align:center;
+		padding: 30px;
+		}
+	.content_team {
+		display: flex;
+		background: #FFFBFB;
+		background-repeat: no-repeat;
+		background-position: 100%;
+		background-size: cover;
+		padding: 30px;
+		width: auto ;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 50px;
+		color: #0c0c0c;
+	}
+	.wrapper_column-container{
+
+	}
+	.left_Ivanova-column {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: auto
+	}
+	.title_IvanO {
+		text-align:center;
+		padding: 30px;
+	
+	}
+	.Olga_rezim {
+
+	}
+	.center_Petrov-column {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: auto
+	}
+	.title_PetK {
+		text-align:center;
+		padding: 30px;
+	}
+	.right_Cidrova-column {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: auto
+	}
+	.title_CidN {
+		text-align:center;
+		padding: 30px;
+	}
