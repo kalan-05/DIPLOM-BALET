@@ -182,14 +182,14 @@ ul {
 		padding: 30px;
 		/*align-items: center*/
 		/*margin: 30px;*/
-		width: auto ;
-		padding-left: 80px;
-		padding-right: 80px;
+		width: auto;
+		padding-left: 180px;
+		padding-right: 180px;
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 22px;
-		line-height: 50px;
+		font-size: 16px;
+		line-height: 36px;
 		color: #0c0c0c;
 	}
 	.Loginova-column {
@@ -197,14 +197,25 @@ ul {
 		justify-content: center;
 		align-items: center;
 		width: auto;
-		height: auto
+		height: auto;
 		}
 		.title_LogE {
 		text-align:center;
 		padding: 30px;
+		text-align: center;
 		}
+p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	/*padding: 100px;*/
+}
+				/*Loginova end*/
+					/*team start*/
+
 	.content_team {
-		display: flex;
 		background: #FFFBFB;
 		background-repeat: no-repeat;
 		background-position: 100%;
@@ -216,47 +227,250 @@ ul {
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 22px;
-		line-height: 50px;
+		font-size: 16px;
+		line-height: 36px;
 		color: #0c0c0c;
 	}
-	.wrapper_column-container{
-
+	.column-team {
+		display: flex;
+		width: auto;
+		height: auto;
+    gap: 10px 80px;
+		
+		/*max-width: 480px;*/
+		
 	}
+				/*Ivanova*/
 	.left_Ivanova-column {
 		display: flex;
+		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 		width: auto;
-		height: auto
+		height: auto;
+	}
+	.Ivanova-photo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.title_IvanO {
 		text-align:center;
 		padding: 30px;
-	
 	}
 	.Olga_rezim {
-
+		width: auto;
+		height: auto;
 	}
+
+					/*Petrov*/
 	.center_Petrov-column {
 		display: flex;
+		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 		width: auto;
-		height: auto
+		height: auto;
+	}
+	.Petrov-photo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*width: auto;
+		height: auto;*/
 	}
 	.title_PetK {
 		text-align:center;
 		padding: 30px;
 	}
+	.Petrov_rezim {
+		width: auto;
+		height: auto;
+	}
+
+					/* Cidrova*/
 	.right_Cidrova-column {
 		display: flex;
+		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 		width: auto;
-		height: auto
+		height: auto;
+	}
+	.Cidrova-photo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.title_CidN {
 		text-align:center;
 		padding: 30px;
 	}
+	.Natalia_rezim {
+		width: auto;
+		height: auto;
+	}
+						/* end team */
+
+	.services {
+		background: #F5F5F5;
+		background-repeat: no-repeat;
+		background-position: 100%;
+		background-size: cover;
+		padding: 30px;
+		width: auto ;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		font: size 16px;
+		line-height: 36px;
+		color: #0c0c0c;
+	}
+	.column_services {
+		display: flex;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		flex-grow: wrap;
+		}
+.column_row1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: space-between;
+		align-items: stretch;
+		gap: 10px 160px;
+		padding-bottom: 30px;
+}
+.Group_DETI {
+	width: 50%;
+	height: auto;
+}
+.photo_Deti {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.titel_deti {
+	text-align:center;
+	padding: 30px;
+}
+.Group_PODROCTKI {
+	width: 50%;
+	height: auto;
+}
+.photo_podroctki {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.titel_podroctki {
+	text-align:center;
+	padding: 30px;
+}
+.column_row2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 10px 160px;
+}
+.Group_NEW_BALET {
+	width: 50%;
+	height: auto;
+}
+.photo_NEW_BALET {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.titel_NEW_BALET {
+	text-align:center;
+	padding: 30px;
+}
+.Group_HEGH_HEDS {
+	width: 50%;
+	height: auto;
+}
+.HEGH_HEDS {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.titel_HEGH_HEDS {
+	text-align:center;
+	padding: 30px;
+}
+		/*		end services 		*/
+		/*	start	review		*/
+
+.content_reviews {
+	background: #FFFBFB;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: cover;
+	padding: 30px;
+	width: auto;
+	height: auto;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 36px;
+	color: #0c0c0c;
+	}
+.titel_reviews {
+	text-align:center;
+	padding: 30px;
+}
+.column-reviews {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 10px 80px;
+	padding-bottom: 30px;
+	
+}
+/*		footer		*/
+
+/*.footer-columns .right-column {
+	padding-top: 25px;
+	display: flex;
+	max-width: none;
+	column-gap: 80px;
+} */
+.footer-menu {
+	width: 180px;
+}
+.footer-submenu-title {
+	display: block;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	border-bottom: 1px solid #555555;
+}  
+.footer-submenu > li {   
+	margin-bottom: 20px;
+}  
+.footer-submenu a {
+	text-decoration: none;
+	color: #888888;
+}  
+.timetable-fligts{
+	font-family: 'Caveat', cursive;
+}
